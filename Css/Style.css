@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(24, 140, 142, 0.3),
+      rgba(24, 140, 142, 0.3)
+    ),
+    url("../Assets/Coffe\ Header.png");
+  color: #fff;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 72.75rem;
+}
+
+.header-logo {
+  background-image: url("../Assets/Logo White.png");
+  background-size: cover;
+  height: 36px;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.header-list ul {
+  display: flex;
+}
+
+.header-list li {
+  padding: 33px 20px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 0 0;
+  width: 100vw;
+}
+
+.container-main {
+  height: 50vh;
+  display: flex;
+  width: 60rem;
+  justify-content: space-between;
+}
+
+.container-main.second {
+  height: 50vh;
+  display: flex;
+  width: 60rem;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.img-card {
+  width: 335px;
+  height: 460px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.contain-img {
+  background-image: url("../Assets/Who are we.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contain-img.second {
+  background-image: url("../Assets/Our products.jpg");
+}
+
+.contain-img.third {
+  background-image: url("../Assets/Hang out with us.jpg");
+}
+
+.contain-title,
+.title-wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 13.125rem;
+  flex-direction: column;
+}
+
+.contain-title.second {
+  height: 16.125rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contain-title h3,
+.title-wrap h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0f8b8d;
+}
+
+.title-wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 9.125rem;
+  flex-direction: column;
+}
+
+.title-wrap.second {
+  display: flex;
+  justify-content: space-between;
+  height: 11.125rem;
+  flex-direction: column;
+}
+
+.button-red {
+  width: 335px;
+  height: 70px;
+  border-radius: 55px;
+  background-color: #a8201a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9fbfe;
+}
+
+.line-space {
+  width: 278px;
+  height: 5px;
+  background-color: #ec9a29;
+}
+
+.contain-title p,
+.title-wrap p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+  width: 28.25rem;
+}
+
+.contain-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  width: 31.188rem;
+  height: 13.813rem;
+}
+
+.contain-header h1 {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 84px;
+  margin-top: 30%;
+}
+
+.container-main.card {
+  flex-direction: column;
+  height: 70vh;
+  display: flex;
+  width: 60rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container-main.card h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  color: #0f8b8d;
+  margin-bottom: 20px; /* Tambahkan margin bawah agar tidak terlalu rapat dengan card-wrap */
+}
+
+.container-main.card span {
+  color: #ec9a29;
+}
+
+.card-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; /* Perbesar jarak antar card-stack */
+  width: 795px;
+  height: 500 px;
+}
+
+.card-image-stack {
+  width: 237px;
+  height: 237px;
+}
+
+.card-image-stack:nth-of-type(1) {
+  background-image: url("../Assets/Feed\ 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-image-stack:nth-of-type(2) {
+  background-image: url("../Assets/Feed\ 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-image-stack:nth-of-type(3) {
+  background-image: url("../Assets/Feed\ 3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-image-stack:nth-of-type(4) {
+  background-image: url("../Assets/Feed\ 4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-image-stack:nth-of-type(5) {
+  background-image: url("../Assets/Feed\ 5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-image-stack:nth-of-type(6) {
+  background-image: url("../Assets/Feed\ 6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-main.ask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-center h3 {
+  color: #0f8b8d;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+footer {
+  background-color: #143642;
+  color: #fff;
+  height: 28.75rem; /* Ganti tinggi footer agar sesuai dengan kontennya */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  width: 500px;
+}
+
+.footer-list {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list ul {
+  width: 200px;
+}
+
+.footer-list a {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-list ul li a {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list ul li:first-child a {
+  color: #ec9a29;
+}
+
+.footer-brand {
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.icon-brand {
+  background-image: url("../Assets/Logo\ White.png");
+  background-size: cover;
+  height: 43px;
+  width: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-icons {
+  display: flex;
+}
+
+.img-icon {
+  background-image: url("../Assets/MAIL\ ICON.svg");
+  background-size: cover;
+  width: 40px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(100%);
+  margin-right: 20px;
+}
+
+.img-icon:nth-of-type(2) {
+  background-image: url("../Assets/PHONE\ ICON.svg");
+  background-size: cover;
+  width: 40px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
