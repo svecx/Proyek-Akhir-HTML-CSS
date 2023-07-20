@@ -1,0 +1,151 @@
+footer {
+  background-color: #143642;
+  color: #fff;
+  height: 28.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 40px;
+  align-items: start;
+}
+
+.footer-list {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-list ul {
+  width: 100%;
+  padding: 0;
+}
+
+.footer-list a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-list ul li a {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list ul li:first-child a {
+  color: #ec9a29;
+}
+
+.footer-brand {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.icon-brand {
+  background-image: url("../Assets/Logo White.png");
+  background-size: cover;
+  height: 43px;
+  width: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.img-icon {
+  background-image: url("../Assets/MAIL ICON.svg");
+  background-size: cover;
+  width: 40px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(100%);
+  margin-right: 10px;
+}
+
+.img-icon:nth-of-type(2) {
+  background-image: url("../Assets/PHONE ICON.svg");
+}
+
+.container-footer {
+  display: flex;
+  height: 70%;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.footer-list ul li a {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .container-footer {
+    flex-direction: column;
+  }
+  .footer-nav {
+    gap: 0px;
+    flex-direction: column;
+  }
+  .footer-brand {
+    flex-direction: row;
+    gap: 44px;
+  }
+  .container-footer {
+    gap: 30px;
+  }
+  .footer-list ul li:nth-child(2),
+  .footer-list ul li:nth-child(3),
+  .footer-list ul li:nth-child(4) {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .container-footer {
+    flex-direction: column;
+    height: 80%;
+  }
+  .footer-nav {
+    gap: 0px;
+    flex-direction: column;
+  }
+  .footer-brand {
+    flex-direction: row;
+    gap: 36px;
+  }
+  .container-footer {
+    gap: 30px;
+  }
+  .footer-list ul li:first-child a {
+    font-size: 14px;
+  }
+  .footer-list ul li:not(:first-child) a {
+    font-size: 12px;
+  }
+  .footer-list ul li:nth-child(2),
+  .footer-list ul li:nth-child(3),
+  .footer-list ul li:nth-child(4) {
+    margin-left: 40px;
+  }
+  .icon-brand {
+    height: 36px;
+    width: 184px;
+  }
+}
